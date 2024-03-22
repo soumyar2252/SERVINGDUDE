@@ -1,118 +1,54 @@
-/* Reset CSS */
-* {
+/* Resetting default margin and padding */
+body, h1, h2, p, ul {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
   }
   
+  /* Basic styles */
   body {
     font-family: Arial, sans-serif;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh; /* Ensure the body takes up at least the full height of the viewport */
-  }
-
-  main {
-    flex: 1; /* Make the main content area grow to fill the available space */
-  }
-  
-  footer {
-    margin-top: auto; /* Push the footer to the bottom */
-  }
-  
-
-
-.service-buttons {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 50px;
-  }
-  
-  .service-button {
-    text-align: center;
-  }
-  
-  .service-button .icon {
-    font-size: 48px;
-    margin-bottom: 10px;
-  }
-
-  .container {
-    width: 80%;
-    margin: 0 auto;
-    overflow: hidden;
+    line-height: 1.6;
   }
   
   header {
-    background: #333;
-    color: #fff;
-    padding: 20px 0;
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
   }
   
-  header h1 {
-    float: left;
+  nav {
+    background-color: #333;
   }
   
   nav ul {
-    float: right;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
   }
   
   nav ul li {
     display: inline;
-    margin-left: 20px;
   }
   
   nav ul li a {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  .hero {
-    background: url('https://via.placeholder.com/1500x600') center/cover;
-    color: #fff;
-    text-align: center;
-    padding: 100px 0;
-  }
-  
-  .hero h2 {
-    margin-bottom: 20px;
-  }
-  
-  .btn {
-    display: inline-block;
-    background: #333;
-    color: #fff;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background 0.3s ease;
-  }
-  
-  .btn:hover {
-    background: #555;
-  }
-
-
-  .services {
-    padding: 50px 0;
-  }
-  
-  .service {
-    text-align: center;
-    margin-bottom: 30px;
-  }
-  
-  .service i {
-    font-size: 50px;
-    margin-bottom: 20px;
     display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
   }
-
+  
+  nav ul li a:hover {
+    background-color: #555;
+  }
+  
+  main {
+    padding: 20px;
+  }
   
   footer {
-    background: #333;
+    background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 0;
   }
-
+  
