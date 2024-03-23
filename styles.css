@@ -44,7 +44,7 @@
   }
   
   header {
-    background: #333;
+    background: #372b25;
     color: #fff;
     padding: 20px 0;
   }
@@ -68,7 +68,7 @@
   }
   
   .hero {
-    background: url('https://via.placeholder.com/1500x600') center/cover;
+    background: url('/background\ image\ \(1\).jpg') center/cover;
     color: #fff;
     text-align: center;
     padding: 100px 0;
@@ -80,7 +80,7 @@
   
   .btn {
     display: inline-block;
-    background: #333;
+    background: #372b25;
     color: #fff;
     padding: 10px 20px;
     text-decoration: none;
@@ -89,7 +89,7 @@
   }
   
   .btn:hover {
-    background: #555;
+    background: #372b25;
   }
 
 
@@ -110,7 +110,7 @@
 
   
   footer {
-    background: #333;
+    background: #372b25;
     color: #fff;
     text-align: center;
     padding: 20px 0;
